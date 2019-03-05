@@ -1,4 +1,4 @@
-# Boilerplate
+# Simple Crud from a phalcon boilerplate
 
 - Clone repo
 - Run composer update
