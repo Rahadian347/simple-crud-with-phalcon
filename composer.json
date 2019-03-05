@@ -40,7 +40,8 @@
     "peppeocchi/php-cron-scheduler": "^2.3",
     "filp/whoops": "^2.1",
     "league/flysystem-aws-s3-v3": "dev-master",
-    "psy/psysh": "dev-master"
+    "psy/psysh": "dev-master",
+    "php-http/client-common": "^2.0@dev"
   },
   "require-dev": {
     "fzaninotto/faker": "dev-master",

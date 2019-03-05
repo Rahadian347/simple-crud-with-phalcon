@@ -13,6 +13,7 @@ return [
 			'username' => env( 'DATABASE_USER', 'application' ),
 			'password' => env( 'DATABASE_PASS', 'secret' ),
 			'charset'  => env( 'DATABASE_CHARSET', 'utf8mb4' ),
+			
 		],
 
 		'sqlite' => [

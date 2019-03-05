@@ -43,7 +43,8 @@ class ServiceProvider extends AbstractServiceProvider {
 
 						return $cacheDir . DIRECTORY_SEPARATOR . $filename;
 					},
-					'compileAlways' => environment( 'development' ) || env( 'APP_DEBUG', false ),
+					// 'compileAlways' => environment( 'development' ) || env( 'APP_DEBUG', false ),
+					'compileAlways' => true,
 				]
 			);
 

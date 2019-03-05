@@ -96,6 +96,6 @@ class ServiceProvider extends AbstractServiceProvider {
 				return $logger;
 			}
 		);
-		$this->di->setShared( 'sentry', new Sentry( container( 'config' ) ) );
+		// $this->di->setShared( 'sentry', new Sentry( container( 'config' ) ) );
 	}
 }
