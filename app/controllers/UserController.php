@@ -29,7 +29,7 @@ class UserController extends ControllerBase
       }
       else {
         
-         $this->response->redirect('user/create/');
+         $this->response->redirect('/');
           $this->view->disable();
       }     
          
@@ -64,7 +64,7 @@ class UserController extends ControllerBase
          echo "Gagal Disimpan";
       }
       else {
-         $this->response->redirect('user/viewdata/');
+         $this->response->redirect('viewdata/');
          $this->view->disable();
       }
    }
@@ -75,7 +75,7 @@ class UserController extends ControllerBase
          echo "Gagal Hapus Data";
       }
       else {
-         $this->response->redirect('user/viewdata/');
+         $this->response->redirect('viewdata/');
           $this->view->disable();
       }
    }

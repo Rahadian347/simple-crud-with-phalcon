@@ -11,7 +11,7 @@
         }
 </style>
 
-{{ form('user/update', 'role': 'form', 'class': 'form-signin') }}
+{{ form('update', 'role': 'form', 'class': 'form-signin') }}
 <h1 class="h3 mb-3 font-weight-normal">Silahkan Edit Data</h1>
 <input type="hidden" name="txt_id" value="{{id}}" >
 <label for="name" class="sr-only">Nama</label>

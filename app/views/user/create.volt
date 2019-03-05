@@ -10,7 +10,7 @@
     }
 </style>
 
-{{ form('user/create', 'role': 'form') }}
+{{ form('/', 'role': 'form') }}
 <form class="form-signin">
         <h4 class="h4 mb-4 font-weight-normal">Silahkan Input Data</h4>
         <label for="name" class="sr-only">Nama</label>
@@ -19,7 +19,7 @@
         <input type="email" name="txt_email" class="form-control" placeholder="Email Anda">
         <button class="btn btn-lg btn-primary btn-block btnSave" type="submit">Save</button>
         <div id="viewdata">
-            <?= $this->tag->linkTo(['user/viewdata', 'Lihat Data!','class' => 'buttonLink']) ?>
+            <?= $this->tag->linkTo(['viewdata', 'Lihat Data!','class' => 'buttonLink']) ?>
         </div>
         
         

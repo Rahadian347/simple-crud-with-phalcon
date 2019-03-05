@@ -17,12 +17,12 @@
             <td>{{ datas.id_user }}</td>
             <td>{{ datas.nama_user }}</td>
             <td>{{ datas.email_user }}</td>
-            <td>{{linkTo("user/edit/" ~ datas.id_user, "Edit")}} {{linkTo("user/hapus/" ~ datas.id_user, "Hapus")}}</td>
+            <td>{{linkTo("edit/" ~ datas.id_user, "Edit")}} {{linkTo("hapus/" ~ datas.id_user, "Hapus")}}</td>
         </tr>
     </tbody>
     {% if loop.last %}
 </table>
-<?= $this->tag->linkTo(['user/create', 'Tambah Data!','class' => 'buttonLink']) ?>
+<?= $this->tag->linkTo(['', 'Tambah Data!','class' => 'buttonLink']) ?>
 </div>
 </main>
 {% endif %}

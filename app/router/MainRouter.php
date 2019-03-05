@@ -16,7 +16,7 @@ class MainRouter extends Group
             'controller'=>'index'
         ]);
         $this->add(
-            '/',
+            '/index',
             [
                 'action' => 'index'
             ]

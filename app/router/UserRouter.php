@@ -16,39 +16,33 @@ class UserRouter extends Group
             'controller'=>'user',
             // 'module' => 'user'
         ]);
-         $this->setPrefix('/user');
+         $this->setPrefix('/');
         $this->add(
-            '/index',
-            [
-                'action' => 'index'
-            ]
-        );
-        $this->add(
-            '/create',
+            '',
             [
                 'action' => 'create'
             ]
         );
         $this->add(
-            '/viewdata',
+            'viewdata',
             [
                 'action' => 'viewdata'
             ]
         );
         $this->addGet(
-            '/edit/{id}',
+            'edit/{id}',
             [
                 'action' => 'edit'
             ]
         );
         $this->add(
-            '/update',
+            'update',
             [
                 'action' => 'update'
             ]
         );
         $this->add(
-            '/hapus/{id}',
+            'hapus/{id}',
             [
                 'action' => 'delete'
             ]
